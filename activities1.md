@@ -54,5 +54,8 @@ to give yourself arrows that create a block of lava wherever they hit.
 <pre>d.box(10)</pre>. In fact, you can make arrows that create any placeable block by putting the number of the block in this statement.
 
 ##Links
-http://www.barebones.com/products/textwrangler/
-http://www.activestate.com/komodo-edit/downloads
+*https://minecraft.net
+*http://bukkit.org
+*http://scriptcraftjs.org
+*http://www.barebones.com/products/textwrangler/
+*http://www.activestate.com/komodo-edit/downloads
