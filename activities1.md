@@ -27,7 +27,7 @@ Now that ScriptCraft is installed and we've practiced with some of the pre-insta
 4. Notice the comments at the top that show you how to run the script.
 
 5. The first block of code after the comments is a section where a lot of variables are being set.  Notice at the end of this block a list of arrow types is declared.  The first thing we need to do is add a new type to this list.  Look for this line: 
-<pre>_types = [ 'Normal', 'Explosive', 'Teleport', 'Flourish', 'Lightning', 'Firework' ];</pre>
+    <pre>_types = [ 'Normal', 'Explosive', 'Teleport', 'Flourish', 'Lightning', 'Firework' ];</pre>
 The list of things between the square brackets is called an array, and we're going to add an item to the array, like this:
      <pre>_types = [ 'Normal', 'Explosive', 'Teleport', 'Flourish', 'Lightning', 'Firework', 'Lava' ];</pre>
 Notice that I've put a comma after 'Firework', and I've enclosed my new item in quotation marks.  These quotation marks tell the computer that this is a list of words or other text (= strings), not numbers or variables.
@@ -51,7 +51,8 @@ Notice that I've put a comma after 'Firework', and I've enclosed my new item in 
 to give yourself arrows that create a block of lava wherever they hit.
 
 11. To practice this again, create another case for fire arrows.  Just add 'Fire' to the array of arrow types, and add an 8th case to the switch, changing the third line of the case to:
-<pre>d.box(10)</pre>. In fact, you can make arrows that create any placeable block by putting the number of the block in this statement.
+    <pre>d.box(10)</pre> 
+In fact, you can make arrows that create any placeable block by putting the number of the block in this statement.
 
 ##Links
 * https://minecraft.net
