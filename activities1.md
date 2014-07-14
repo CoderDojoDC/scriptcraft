@@ -12,8 +12,8 @@ Now that ScriptCraft is installed and we've practiced with some of the pre-insta
 
 3. The files ending in .js are JavaScript files that you can open and edit with a text editor such as Notepad; you may want to install TextWrangler (Mac) or Komodo Edit (Mac/PC/Linux) which offer some nice features that make writing programs easier.
 
-    http://www.barebones.com/products/textwrangler/
-    http://www.activestate.com/komodo-edit/downloads
+    * http://www.barebones.com/products/textwrangler/
+    * http://www.activestate.com/komodo-edit/downloads
 
 4. Explore the ScriptCraft folder, open some of the scripts, and see if you can find new commands to test on your ScriptCraft server.  When you open the files in this folder, at the top of the document, you may notice some blocks of text contained within tags like this: "/*" and "*/".  These are comments, which means that when the computer runs the program, it knows to ignore these blocks of text.  Good programmers put comments in their code so that others who want to use of modify their programs later can more easily understand how it works.
 
@@ -31,11 +31,11 @@ Now that ScriptCraft is installed and we've practiced with some of the pre-insta
 
 5. The first block of code after the comments is a section where a lot of variables are being set.  Notice at the end of this block a list of arrow types is declared.  The first thing we need to do is add a new type to this list.  Look for this line:
 
-    `_types = [ 'Normal', 'Explosive', 'Teleport', 'Flourish', 'Lightning', 'Firework' ];`
+`_types = [ 'Normal', 'Explosive', 'Teleport', 'Flourish', 'Lightning', 'Firework' ];`
 
 The list of things between the square brackets is called an array, and we're going to add an item to the array, like this:
 
-     `_types = [ 'Normal', 'Explosive', 'Teleport', 'Flourish', 'Lightning', 'Firework', 'Lava' ];`
+`_types = [ 'Normal', 'Explosive', 'Teleport', 'Flourish', 'Lightning', 'Firework', 'Lava' ];`
 
 Notice that I've put a comma after 'Firework', and I've enclosed my new item in quotation marks.  These quotation marks tell the computer that this is a list of words or other text (= strings), not numbers or variables.
 
