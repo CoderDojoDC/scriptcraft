@@ -12,7 +12,7 @@ Now that ScriptCraft is installed and we've practiced with some of the pre-insta
 
 3. The files ending in .js are JavaScript files that you can open and edit with a text editor such as Notepad; you may want to install [TextWrangler](http://www.barebones.com/products/textwrangler/) (Mac) or [Komodo Edit](http://www.activestate.com/komodo-edit/downloads) (Mac/PC/Linux) which offer some nice features that make writing programs easier.
 
-4. Explore the ScriptCraft folder, open some of the scripts, and see if you can find new commands to test on your ScriptCraft server.  When you open the files in this folder, at the top of the document, you may notice some blocks of text contained within tags like this: `/*` and `*/`.  These are comments, which means that when the computer runs the program, it knows to ignore these blocks of text.  Good programmers put comments in their code so that others who want to use of modify their programs later can more easily understand how it works.
+4. Explore the ScriptCraft folder, open some of the scripts, and see if you can find new commands to test on your ScriptCraft server.  When you open the files in this folder, at the top of the document, you may notice some blocks of text contained within tags like this: `/*` and `*/`.  These are comments, which means that when the computer runs the program, it knows to ignore these blocks of text.  Good programmers put comments in their code so that others who want to use or modify their programs later can more easily understand how it works.
 
 5. As you explore the files in this folder, read the comments to see if you can figure out new commands to try on your ScriptCraft server; when you do find something that works, share it with the other kids, and show them how it works.
 
@@ -51,7 +51,7 @@ Notice that I've put a comma after 'Firework', and I've enclosed my new item in 
 to give yourself arrows that create a block of lava wherever they hit.
 
 11. To practice this again, create another case for fire arrows.  Just add 'Fire' to the array of arrow types, and add an 8th case to the switch, changing the third line of the case to:
-    <pre>d.box(10)</pre> 
+    <pre>d.box(51)</pre> 
 In fact, you can make arrows that create any placeable block by putting the number of the block in this statement.
 
 ##Links
