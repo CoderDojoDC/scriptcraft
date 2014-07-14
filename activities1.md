@@ -10,7 +10,7 @@ Now that ScriptCraft is installed and we've practiced with some of the pre-insta
 
 2. Within this directory you will find all the example scripts that you've been working with so far. When you start writing you own programs, you will need to save them in this folder in order for ScriptCraft to know where to look for them.
 
-3. The files ending in .js are JavaScript files that you can open and edit with a text editor such as Notepad; you may want to install TextWrangler (Mac) [http://www.barebones.com/products/textwrangler/] or Komodo Edit [http://www.activestate.com/komodo-edit/downloads] (Mac/PC/Linux) which offer some nice features that make writing programs easier.
+3. The files ending in .js are JavaScript files that you can open and edit with a text editor such as Notepad; you may want to install [TextWrangler](http://www.barebones.com/products/textwrangler/) (Mac) or [Komodo Edit](http://www.activestate.com/komodo-edit/downloads) (Mac/PC/Linux) which offer some nice features that make writing programs easier.
 
 4. Explore the ScriptCraft folder, open some of the scripts, and see if you can find new commands to test on your ScriptCraft server.  When you open the files in this folder, at the top of the document, you may notice some blocks of text contained within tags like this: `/*` and `*/`.  These are comments, which means that when the computer runs the program, it knows to ignore these blocks of text.  Good programmers put comments in their code so that others who want to use of modify their programs later can more easily understand how it works.
 
@@ -38,7 +38,7 @@ Notice that I've put a comma after 'Firework', and I've enclosed my new item in 
 
 8.  We're adding a new case, so what do you think we need to do?  Think back to how we added an item to the array above.  How many items are in the array we added to? Now look at how many "cases" are in this switch statement.  What number will our lava arrow be? The reason why the next item in the switch is 6, but there are 7 types in our array is because the first one is "normal" (just a normal arrow), and that would actually be case "0", but since a normal arrow doesn't need to do anything special, there is no case 0 in our switch statement.
 
-9.  So we're going to add case 7 to the switch. Exactly how this code works is a topic for another day, but for now just add this to the end of the switch statement, placing it before the `}`:
+9.  So we're going to add case 7 to the switch. Exactly how this code works is a topic for another day, but for now just add this to the end of the switch statement, placing it before the <code>}</code>:
 
      <pre>case 7:
         projectile.remove();
@@ -48,7 +48,11 @@ Notice that I've put a comma after 'Firework', and I've enclosed my new item in 
 
 10. Save your text file.  Now, when you start up your Bukkit/ScriptCraft server and join your world, you should be able to type 
      <pre>/js arrows.lava(self)</pre>
-And give yourself arrows that create a block of lava wherever they hit.
+to give yourself arrows that create a block of lava wherever they hit.
 
 11. To practice this again, create another case for fire arrows.  Just add 'Fire' to the array of arrow types, and add an 8th case to the switch, changing the third line of the case to:
-`d.box(10)`. In fact, you can make arrows that create any placeable block by putting the number of the block in this statement.
+<pre>d.box(10)</pre>. In fact, you can make arrows that create any placeable block by putting the number of the block in this statement.
+
+##Links
+http://www.barebones.com/products/textwrangler/
+http://www.activestate.com/komodo-edit/downloads
