@@ -6,7 +6,7 @@ Now that ScriptCraft is installed and we've practiced with some of the pre-insta
 
 1. Using the file system, locate the scriptcraft plugins folder at
 
-    <code>[Your Bukkit Server Folder]/plugins/scriptcraft/plugins/</code>
+    <pre>[Your Bukkit Server Folder]/plugins/scriptcraft/plugins/</pre>
 
 2. Within this directory you will find all the example scripts that you've been working with so far. When you start writing you own programs, you will need to save them in this folder in order for ScriptCraft to know where to look for them.
 
