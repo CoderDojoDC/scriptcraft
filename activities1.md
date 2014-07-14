@@ -6,7 +6,7 @@ Now that ScriptCraft is installed and we've practiced with some of the pre-insta
 
 1. Using the file system, locate the scriptcraft plugins folder at
 
-    <code>[Your Bukkit Server Folder]/plugins/scriptcraft/plugins/
+    <code>[Your Bukkit Server Folder]/plugins/scriptcraft/plugins/</code>
 
 2. Within this directory you will find all the example scripts that you've been working with so far. When you start writing you own programs, you will need to save them in this folder in order for ScriptCraft to know where to look for them.
 
@@ -30,9 +30,9 @@ Now that ScriptCraft is installed and we've practiced with some of the pre-insta
 4. Notice the comments at the top that show you how to run the script.
 
 5. The first block of code after the comments is a section where a lot of variables are being set.  Notice at the end of this block a list of arrow types is declared.  The first thing we need to do is add a new type to this list.  Look for this line: 
-     <code>_types = [ 'Normal', 'Explosive', 'Teleport', 'Flourish', 'Lightning', 'Firework' ];
+<code>_types = [ 'Normal', 'Explosive', 'Teleport', 'Flourish', 'Lightning', 'Firework' ];</code>
 The list of things between the square brackets is called an array, and we're going to add an item to the array, like this:
-     <code>_types = [ 'Normal', 'Explosive', 'Teleport', 'Flourish', 'Lightning', 'Firework', 'Lava' ];
+     <code>_types = [ 'Normal', 'Explosive', 'Teleport', 'Flourish', 'Lightning', 'Firework', 'Lava' ];</code>
 Notice that I've put a comma after 'Firework', and I've enclosed my new item in quotation marks.  These quotation marks tell the computer that this is a list of words or other text (= strings), not numbers or variables.
 
 6. Now that we've added a new item to the list of possible arrows, we need to write instructions for the computer to know what to do when someone fires a lava arrow.
