@@ -15,7 +15,7 @@ Now that ScriptCraft is installed and we've practiced with some of the pre-insta
     * http://www.barebones.com/products/textwrangler/
     * http://www.activestate.com/komodo-edit/downloads
 
-4. Explore the ScriptCraft folder, open some of the scripts, and see if you can find new commands to test on your ScriptCraft server.  When you open the files in this folder, at the top of the document, you may notice some blocks of text contained within tags like this: <pre>``/*``</pre> and <pre>``*/``</pre>.  These are comments, which means that when the computer runs the program, it knows to ignore these blocks of text.  Good programmers put comments in their code so that others who want to use of modify their programs later can more easily understand how it works.
+4. Explore the ScriptCraft folder, open some of the scripts, and see if you can find new commands to test on your ScriptCraft server.  When you open the files in this folder, at the top of the document, you may notice some blocks of text contained within tags like this: `/*` and ``*`/``.  These are comments, which means that when the computer runs the program, it knows to ignore these blocks of text.  Good programmers put comments in their code so that others who want to use of modify their programs later can more easily understand how it works.
 
 5. As you explore the files in this folder, read the comments to see if you can figure out new commands to try on your ScriptCraft server; when you do find something that works, share it with the other kids, and show them how it works.
 
@@ -50,11 +50,8 @@ Notice that I've put a comma after 'Firework', and I've enclosed my new item in 
         break;</pre>
 
 10. Save your text file.  Now, when you start up your Bukkit/ScriptCraft server and join your world, you should be able to type 
-
      <pre>/js arrows.lava(self)</pre>
-
 And give yourself arrows that create a block of lava wherever they hit.
 
 11. To practice this again, create another case for fire arrows.  Just add 'Fire' to the array of arrow types, and add an 8th case to the switch, changing the third line of the case to:
-`d.box(10)` 
-In fact, you can make arrows that create any placeable block by putting the number of the block in this statement.
+`d.box(10)`. In fact, you can make arrows that create any placeable block by putting the number of the block in this statement.
