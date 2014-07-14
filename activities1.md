@@ -15,7 +15,7 @@ Now that ScriptCraft is installed and we've practiced with some of the pre-insta
     * http://www.barebones.com/products/textwrangler/
     * http://www.activestate.com/komodo-edit/downloads
 
-4. Explore the ScriptCraft folder, open some of the scripts, and see if you can find new commands to test on your ScriptCraft server.  When you open the files in this folder, at the top of the document, you may notice some blocks of text contained within tags like this: `/*` and ``*`/``.  These are comments, which means that when the computer runs the program, it knows to ignore these blocks of text.  Good programmers put comments in their code so that others who want to use of modify their programs later can more easily understand how it works.
+4. Explore the ScriptCraft folder, open some of the scripts, and see if you can find new commands to test on your ScriptCraft server.  When you open the files in this folder, at the top of the document, you may notice some blocks of text contained within tags like this: `/*` and `*/`.  These are comments, which means that when the computer runs the program, it knows to ignore these blocks of text.  Good programmers put comments in their code so that others who want to use of modify their programs later can more easily understand how it works.
 
 5. As you explore the files in this folder, read the comments to see if you can figure out new commands to try on your ScriptCraft server; when you do find something that works, share it with the other kids, and show them how it works.
 
@@ -41,7 +41,7 @@ Notice that I've put a comma after 'Firework', and I've enclosed my new item in 
 
 8.  We're adding a new case, so what do you think we need to do?  Think back to how we added an item to the array above.  How many items are in the array we added to? Now look at how many "cases" are in this switch statement.  What number will our lava arrow be? The reason why the next item in the switch is 6, but there are 7 types in our array is because the first one is "normal" (just a normal arrow), and that would actually be case "0", but since a normal arrow doesn't need to do anything special, there is no case 0 in our switch statement.
 
-9.  So we're going to add case 7 to the switch. Exactly how this code works is a topic for another day, but for now just add this to the end of the switch statement, placing it before the "}":
+9.  So we're going to add case 7 to the switch. Exactly how this code works is a topic for another day, but for now just add this to the end of the switch statement, placing it before the `}`:
 
      <pre>case 7:
         projectile.remove();
