@@ -6,7 +6,7 @@ Now that ScriptCraft is installed and we've practiced with some of the pre-insta
 
 1. Using the file system, locate the scriptcraft plugins folder at
 
-    [Your Bukkit Server Folder]/plugins/scriptcraft/plugins/
+    `[Your Bukkit Server Folder]/plugins/scriptcraft/plugins/`
 
 2. Within this directory you will find all the example scripts that you've been working with so far. When you start writing you own programs, you will need to save them in this folder in order for ScriptCraft to know where to look for them.
 
@@ -31,11 +31,11 @@ Now that ScriptCraft is installed and we've practiced with some of the pre-insta
 
 5. The first block of code after the comments is a section where a lot of variables are being set.  Notice at the end of this block a list of arrow types is declared.  The first thing we need to do is add a new type to this list.  Look for this line:
 
-    _types = [ 'Normal', 'Explosive', 'Teleport', 'Flourish', 'Lightning', 'Firework' ];
+    `_types = [ 'Normal', 'Explosive', 'Teleport', 'Flourish', 'Lightning', 'Firework' ];`
 
 The list of things between the square brackets is called an array, and we're going to add an item to the array, like this:
 
-     _types = [ 'Normal', 'Explosive', 'Teleport', 'Flourish', 'Lightning', 'Firework', 'Lava' ];
+     `_types = [ 'Normal', 'Explosive', 'Teleport', 'Flourish', 'Lightning', 'Firework', 'Lava' ];`
 
 Notice that I've put a comma after 'Firework', and I've enclosed my new item in quotation marks.  These quotation marks tell the computer that this is a list of words or other text (= strings), not numbers or variables.
 
@@ -47,16 +47,18 @@ Notice that I've put a comma after 'Firework', and I've enclosed my new item in 
 
 9.  So we're going to add case 7 to the switch. Exactly how this code works is a topic for another day, but for now just add this to the end of the switch statement, placing it before the "}":
 
-    case 7:
+    `case 7:
       projectile.remove();
       d = new Drone(projectile.location)
       d.box(10)
-      break;
+      break;`
 
 10. Save your text file.  Now, when you start up your Bukkit/ScriptCraft server and join your world, you should be able to type 
 
-    /js arrows.lava(self)
+    `/js arrows.lava(self)`
 
 And give yourself arrows that create a block of lava wherever they hit.
 
-11. To practice this again, create another case for fire arrows.  Just add 'Fire' to the array of arrow types, and add an 8th case to the switch, changing the third line of the case to 'd.box(10)'. In fact, you can make arrows that create any placeable block by putting the number of the block in this statement.
+11. To practice this again, create another case for fire arrows.  Just add 'Fire' to the array of arrow types, and add an 8th case to the switch, changing the third line of the case to:
+`d.box(10)` 
+In fact, you can make arrows that create any placeable block by putting the number of the block in this statement.
