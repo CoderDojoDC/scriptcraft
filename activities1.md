@@ -38,9 +38,9 @@ Notice that I've put a comma after 'Firework', and I've enclosed my new item in 
 
 8.  We're adding a new case, so what do you think we need to do?  Think back to how we added an item to the array above.  How many items are in the array we added to? Now look at how many "cases" are in this switch statement.  What number will our lava arrow be? The reason why the next item in the switch is 6, but there are 7 types in our array is because the first one is "normal" (just a normal arrow), and that would actually be case "0", but since a normal arrow doesn't need to do anything special, there is no case 0 in our switch statement.
 
-9.  So we're going to add case 7 to the switch. Exactly how this code works is a topic for another day, but for now just add this to the end of the switch statement, placing it before the <code>}</code>:
+9.  So we're going to add case 6 to the switch. Exactly how this code works is a topic for another day, but for now just add this to the end of the switch statement, placing it before the <code>}</code>:
 
-     <pre>case 7:
+     <pre>case 6:
         projectile.remove();
         d = new Drone(projectile.location)
         d.box(10)
@@ -50,7 +50,7 @@ Notice that I've put a comma after 'Firework', and I've enclosed my new item in 
      <pre>/js arrows.lava(self)</pre>
 to give yourself arrows that create a block of lava wherever they hit.
 
-11. To practice this again, create another case for fire arrows.  Just add 'Fire' to the array of arrow types, and add an 8th case to the switch, changing the third line of the case to:
+11. To practice this again, create another case for fire arrows. Make this case 7.  Just add 'Fire' to the array of arrow types, and add an 7th case to the switch, changing the third line of the case to:
     <pre>d.box(51)</pre> 
 In fact, you can make arrows that create any placeable block by putting the number of the block in this statement.
 
