@@ -10,10 +10,7 @@ Now that ScriptCraft is installed and we've practiced with some of the pre-insta
 
 2. Within this directory you will find all the example scripts that you've been working with so far. When you start writing you own programs, you will need to save them in this folder in order for ScriptCraft to know where to look for them.
 
-3. The files ending in .js are JavaScript files that you can open and edit with a text editor such as Notepad; you may want to install TextWrangler (Mac) or Komodo Edit (Mac/PC/Linux) which offer some nice features that make writing programs easier.
-
-    * http://www.barebones.com/products/textwrangler/
-    * http://www.activestate.com/komodo-edit/downloads
+3. The files ending in .js are JavaScript files that you can open and edit with a text editor such as Notepad; you may want to install TextWrangler (Mac) [http://www.barebones.com/products/textwrangler/] or Komodo Edit [http://www.activestate.com/komodo-edit/downloads] (Mac/PC/Linux) which offer some nice features that make writing programs easier.
 
 4. Explore the ScriptCraft folder, open some of the scripts, and see if you can find new commands to test on your ScriptCraft server.  When you open the files in this folder, at the top of the document, you may notice some blocks of text contained within tags like this: `/*` and `*/`.  These are comments, which means that when the computer runs the program, it knows to ignore these blocks of text.  Good programmers put comments in their code so that others who want to use of modify their programs later can more easily understand how it works.
 
