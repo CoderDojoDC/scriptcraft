@@ -1,7 +1,7 @@
 #Additional ScriptCraft Commands to Test:
 
-* A 3-block-wide road 100 blocks long:
-<pre>/js box(blocks.cobblestone).right(1)times(2).fwd(1).left(2).times(100);</pre>
+* A 2-block-wide road 100 blocks long:
+<pre>/js box(blocks.cobblestone).right(1).times(2).fwd(1).left(2).times(100);</pre>
 
 * A hollow cylinder of iron with a 10-block diameter and 30 blocks high:
 <pre>/js cylinder0(blocks.iron, 10, 30);</pre>
@@ -13,4 +13,4 @@
 <pre>/js rainbow()
 
 * A message in large block letters made of glowstone:
-<pre>/js blocktype("Your message", blocks.glowstone);</pre>
+<pre>/js blocktype("Your message here", blocks.glowstone);</pre>
