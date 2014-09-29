@@ -10,12 +10,12 @@ You need three things in order to get started controlling your Minecraft world w
 
 1. A Craftbukkit server (see http://bukkit.org)
 2. A copy of the ScriptCraft plugin for Bukkit (see http://scriptcraftjs.org)
-3. A copy of Minecraft (wee http://www.minecraft.net)
+3. A copy of Minecraft (see http://www.minecraft.net)
 
-Items 1 and 2 can be downloaded from this repository by using the button to the right ("Download ZIP") or by clicking on the zip file above in the list of files. Once downloaded, you must unzip the file (see below). A copy of Minecraft can be downloaded from Mojang directly.
+Items 1 and 2 can be downloaded from this repository by using the button to the right ("Download ZIP") or by clicking on the zip file above in the list of files. Once downloaded, you must unzip the file (see below). A copy of Minecraft can be downloaded directly from the Minecraft website (http://www.minecraft.net).
 
 ###Launch the Server and Connect
-In order to use ScriptCraft, you must first launch the Bukkit server.  Once that is running, you connect to the server in your Minecraft client, where you will have access to ScriptCraft commands through the regular Minecraft command line. Follow these steps to get started:
+In order to use ScriptCraft, you must first launch the Bukkit server.  Once that is running, you connect to the server in your Minecraft client, where you will have access to ScriptCraft commands through the regular Minecraft command line (accessible by typing '/'). Follow these steps to get started:
 
 1. Unzip the Scriptcraft software that you downloaded (normally, you can do this by just double clicking the downloaded file). If that doesn't work, you may need to install a compression utility program such as Winzip.
 2. For the Mac, a launch command file has been included (start_server.command). Lauch scripts for Linux and Windows will also be added soon. Double click the launch file for your platform to start your server.  You should see a terminal/console window open and a lot of text go scrolling by -- leave this window open while you play the game (if you want, you can minimize the window, just don't close it).
